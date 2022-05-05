@@ -1,6 +1,7 @@
 {
   "name": "juego-gato",
   "version": "0.1.4",
+  "homepage": "/Portafolio/unidad1/react/practica1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
