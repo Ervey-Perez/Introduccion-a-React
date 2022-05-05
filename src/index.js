@@ -20,6 +20,21 @@ class Board extends React.Component {
         onClick={() => this.props.onClick(i)}
       />
     );
+class Square extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state= {
+            value: null,
+        };
+    }
+//esto es una prueba para merge
+    render() {
+      return (
+        <button className="square" onClick={() => this.setState({value: 'X'})}>
+          {this.state.value}
+        </button>
+      );
+    }
   }
 
   render() {    
