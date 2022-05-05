@@ -8,7 +8,7 @@ class Square extends React.Component {
             value: null,
         };
     }
-
+//esto es una prueba para merge
     render() {
       return (
         <button className="square" onClick={() => this.setState({value: 'X'})}>
